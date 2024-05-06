@@ -18,12 +18,12 @@ function FavoriteSlider() {
   return (
     <section>
       <div className="flex justify-start pb-4 max-w-6xl mx-auto ">
-        <h2 className="text-xl font-bold tet-[#0C1D5A]">PRODUK TERLARIS</h2>
+        <h2 className="text-xl font-bold text-[#0C1D5A]">PRODUK TERLARIS</h2>
       </div>
-      <div className="max-w-6xl mx-auto mt-6">
-        <div ref={ref} className="keen-slider">
+      <div className="max-w-6xl mx-auto mt-2 hover:cursor-grab">
+        <div ref={ref} className="keen-slider ">
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}
@@ -61,7 +61,7 @@ function FavoriteSlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}
@@ -99,7 +99,7 @@ function FavoriteSlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}
@@ -137,7 +137,7 @@ function FavoriteSlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}
@@ -175,7 +175,7 @@ function FavoriteSlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}
@@ -213,7 +213,7 @@ function FavoriteSlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}
@@ -251,7 +251,7 @@ function FavoriteSlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}
@@ -289,7 +289,7 @@ function FavoriteSlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}
@@ -327,7 +327,7 @@ function FavoriteSlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide1">
-            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-8 border border-gray-700 rounded-xl relative">
+            <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border  rounded-xl relative  border-gray-100  ">
               <div className="px-8">
                 <Image
                   src={Aerox}

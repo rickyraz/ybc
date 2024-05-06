@@ -3,12 +3,13 @@ import { CircleArrowRight, MapPinned, Phone } from "lucide-react";
 import Image from "next/image";
 import HeroSlider from "@/Component/HeroSlider";
 import FavoriteSlider from "@/Component/FavoriteSlider";
+import Header from "@/Component/Header";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       {/* Info */}
-      <section className="bg-[#112769] py-2">
+      {/* <section className="bg-[#112769] py-2">
         <div className="flex items-center justify-between max-w-6xl mx-auto">
           <div className="flex space-x-5">
             <div className="flex items-center text-xs space-x-2">
@@ -68,9 +69,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Header */}
-      <section className="bg-white sticky top-0 z-50 after:top-0 after:shadow-xl ">
+      {/* <section className="bg-white sticky top-0 z-50 after:top-0 shadow-sm ">
         <div className="max-w-6xl mx-auto ">
           <header className="flex items-center py-4">
             <Image
@@ -87,18 +88,18 @@ export default function Home() {
             </ul>
           </header>
         </div>
-      </section>
+      </section> */}
       {/* Hero Slider */}
       <HeroSlider />
       <br />
       {/* Produk Terfavorit Slider */}
       <FavoriteSlider />
       <br />
-      <section className="bg-[#ECECEC] py-14">
+      <section className="bg-medium-gray py-14">
         <div className="max-w-6xl mx-auto flex">
           <div className="w-2/3 space-y-3">
             <h2 className="text-3xl text-[#0C1D5A] font-bold">
-              Selamat Datang di Dealer Resmi Yamaha Bahana Ciamis
+              Selamat Datang di Dealer Resmi Yamaha <br /> Bahana Ciamis
             </h2>
             <p>
               Selamat datang di situs resmi dealer Yamaha Bahana Ciamis. Sebagai
@@ -117,6 +118,253 @@ export default function Home() {
         </div>
       </section>
       <br />
-    </div>
+      <section className="max-w-6xl mx-auto  space-y-4">
+        <div className="flex justify-center">
+          <h2 className="text-xl font-bold text-[#0C1D5A]">PRODUK </h2>
+        </div>
+        <div className="flex justify-center space-x-4">
+          <div className="bg-blue-brand -skew-x-12 text-sm px-3 py-1 inline-flex">
+            <div className="-skew-x-0 text-white font-bold">
+              <span>SEMUA</span>
+            </div>
+          </div>
+          <div className="text-blue-brand bg-white border-2 border-blue-brand -skew-x-12 text-sm px-3 py-1 inline-flex">
+            <div className="-skew-x-0  font-bold">
+              <span>MAXI</span>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap space-x-4">
+          <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border border-gray-100 rounded-xl relative">
+            <div className="px-8">
+              <Image
+                src={"/product/aerox.png"}
+                alt="produk-aerox"
+                width={178}
+                height={178}
+                className="-mt-14"
+              />
+            </div>
+            <div className="space-y-2 -mt-3">
+              <p className="text-blue-brand-light text-lg font-bold">
+                Aerox 155
+              </p>
+              <div className="bg-blue-brand -skew-x-12 text-sm px-3 py-1 inline-flex">
+                <div className="-skew-x-0 text-white">
+                  <span>RP. 2.550.000</span>
+                </div>
+              </div>
+              <div className="flex justify-between ">
+                <div className="flex space-x-2">
+                  <Image
+                    src="/brand/yamaha.png"
+                    width={50}
+                    height={24}
+                    alt="Yamaha logo"
+                  />
+                  <Image
+                    src="/brand/bahana.png"
+                    width={50}
+                    height={24}
+                    alt="Bahana logo"
+                  />
+                </div>
+                <CircleArrowRight className="text-blue-brand/25" />
+              </div>
+            </div>
+          </div>
+          <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border border-gray-100 rounded-xl relative">
+            <div className="px-8">
+              <Image
+                src={"/product/aerox.png"}
+                alt="produk-aerox"
+                width={178}
+                height={178}
+                className="-mt-14"
+              />
+            </div>
+            <div className="space-y-2 -mt-3">
+              <p className="text-blue-brand-light text-lg font-bold">
+                Aerox 155
+              </p>
+              <div className="bg-blue-brand -skew-x-12 text-sm px-3 py-1 inline-flex">
+                <div className="-skew-x-0 text-white">
+                  <span>RP. 2.550.000</span>
+                </div>
+              </div>
+              <div className="flex justify-between ">
+                <div className="flex space-x-2">
+                  <Image
+                    src="/brand/yamaha.png"
+                    width={50}
+                    height={24}
+                    alt="Yamaha logo"
+                  />
+                  <Image
+                    src="/brand/bahana.png"
+                    width={50}
+                    height={24}
+                    alt="Bahana logo"
+                  />
+                </div>
+                <CircleArrowRight className="text-blue-brand/25" />
+              </div>
+            </div>
+          </div>
+          <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border border-gray-100 rounded-xl relative">
+            <div className="px-8">
+              <Image
+                src={"/product/aerox.png"}
+                alt="produk-aerox"
+                width={178}
+                height={178}
+                className="-mt-14"
+              />
+            </div>
+            <div className="space-y-2 -mt-3">
+              <p className="text-blue-brand-light text-lg font-bold">
+                Aerox 155
+              </p>
+              <div className="bg-blue-brand -skew-x-12 text-sm px-3 py-1 inline-flex">
+                <div className="-skew-x-0 text-white">
+                  <span>RP. 2.550.000</span>
+                </div>
+              </div>
+              <div className="flex justify-between ">
+                <div className="flex space-x-2">
+                  <Image
+                    src="/brand/yamaha.png"
+                    width={50}
+                    height={24}
+                    alt="Yamaha logo"
+                  />
+                  <Image
+                    src="/brand/bahana.png"
+                    width={50}
+                    height={24}
+                    alt="Bahana logo"
+                  />
+                </div>
+                <CircleArrowRight className="text-blue-brand/25" />
+              </div>
+            </div>
+          </div>
+          <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border border-gray-100 rounded-xl relative">
+            <div className="px-8">
+              <Image
+                src={"/product/aerox.png"}
+                alt="produk-aerox"
+                width={178}
+                height={178}
+                className="-mt-14"
+              />
+            </div>
+            <div className="space-y-2 -mt-3">
+              <p className="text-blue-brand-light text-lg font-bold">
+                Aerox 155
+              </p>
+              <div className="bg-blue-brand -skew-x-12 text-sm px-3 py-1 inline-flex">
+                <div className="-skew-x-0 text-white">
+                  <span>RP. 2.550.000</span>
+                </div>
+              </div>
+              <div className="flex justify-between ">
+                <div className="flex space-x-2">
+                  <Image
+                    src="/brand/yamaha.png"
+                    width={50}
+                    height={24}
+                    alt="Yamaha logo"
+                  />
+                  <Image
+                    src="/brand/bahana.png"
+                    width={50}
+                    height={24}
+                    alt="Bahana logo"
+                  />
+                </div>
+                <CircleArrowRight className="text-blue-brand/25" />
+              </div>
+            </div>
+          </div>
+          <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border border-gray-100 rounded-xl relative">
+            <div className="px-8">
+              <Image
+                src={"/product/aerox.png"}
+                alt="produk-aerox"
+                width={178}
+                height={178}
+                className="-mt-14"
+              />
+            </div>
+            <div className="space-y-2 -mt-3">
+              <p className="text-blue-brand-light text-lg font-bold">
+                Aerox 155
+              </p>
+              <div className="bg-blue-brand -skew-x-12 text-sm px-3 py-1 inline-flex">
+                <div className="-skew-x-0 text-white">
+                  <span>RP. 2.550.000</span>
+                </div>
+              </div>
+              <div className="flex justify-between ">
+                <div className="flex space-x-2">
+                  <Image
+                    src="/brand/yamaha.png"
+                    width={50}
+                    height={24}
+                    alt="Yamaha logo"
+                  />
+                  <Image
+                    src="/brand/bahana.png"
+                    width={50}
+                    height={24}
+                    alt="Bahana logo"
+                  />
+                </div>
+                <CircleArrowRight className="text-blue-brand/25" />
+              </div>
+            </div>
+          </div>
+          <div className=" from-white to-gray-50 bg-gradient-to-b  px-4 pb-4 mt-12 border border-gray-100 rounded-xl relative">
+            <div className="px-8">
+              <Image
+                src={"/product/aerox.png"}
+                alt="produk-aerox"
+                width={178}
+                height={178}
+                className="-mt-14"
+              />
+            </div>
+            <div className="space-y-2 -mt-3">
+              <p className="text-blue-brand-light text-lg font-bold">
+                Aerox 155
+              </p>
+              <div className="bg-blue-brand -skew-x-12 text-sm px-3 py-1 inline-flex">
+                <div className="-skew-x-0 text-white">
+                  <span>RP. 2.550.000</span>
+                </div>
+              </div>
+              <div className="flex justify-between ">
+                <div className="flex space-x-2">
+                  <Image
+                    src="/brand/yamaha.png"
+                    width={50}
+                    height={24}
+                    alt="Yamaha logo"
+                  />
+                  <Image
+                    src="/brand/bahana.png"
+                    width={50}
+                    height={24}
+                    alt="Bahana logo"
+                  />
+                </div>
+                <CircleArrowRight className="text-blue-brand/25" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
